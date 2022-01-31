@@ -1,10 +1,10 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-import firstImage from '../images/avatar/avatar1.png';
-import secondImage from '../images/avatar/avatar2.png';
-import thirdImage from '../images/avatar/avatar3.png';
-import forthImage from '../images/avatar/avatar4.png';
+import firstImage from '../images/avatar_new/avatar1.jpeg';
+import thirdImage from '../images/avatar_new/avatar2.jpeg';
+import secondImage from '../images/avatar_new/avatar3.jpeg';
+import forthImage from '../images/avatar_new/avatar4.jpeg';
 import './css_files/testimonial.css';
 const Testimonials = () => {
   const { ref, inView } = useInView({
@@ -83,15 +83,15 @@ const Testimonials = () => {
             ></path>
           </svg>
         </div>
-        <div className="container" ref={ref}>
+        <div className="container testimonials-title" ref={ref}>
           <motion.h1
             className="testi-header text-capitalized headerTitle mt-5"
             animate={animation}
           >
             The Shibex Team
           </motion.h1>
-          <div className="row align-items-center" data-bs-interval={5000}>
-            <div className="col-md-6 testi-img">
+          <div className="row align-items-center " data-bs-interval={5000}>
+            <div className="col-md-6 testi-img ">
               <div className="img-box">
                 <div className="circle" />
                 <div className="img-box-inner">
@@ -145,32 +145,18 @@ const Testimonials = () => {
                 <div className="carousel-inner text-light p-3">
                   <div className="carousel-item testi-item active">
                     <h3 className="text-center mb-5 teamMates fontName">
-                      Raphael
+                      Raph
                     </h3>
                     <span className="paragraph fw-bolder ">
-                      Hi, I’m Raphael, I am the CEO! I have strong experience in
-                      cryptocurrency and blockchain technology !
+                      CEO GAMING OBSESSED
                     </span>
                   </div>
                   <div className="carousel-item testi-item">
                     <h3 className="text-center mb-5 teamMates fontName">
-                      Nath
+                      Nati
                     </h3>
                     <span className="paragraph fw-bolder ">
-                      Hi guys ! I am the COO of Shibex, focusing on the design
-                      and development part. Currently finishing my studies on a
-                      double major in computer science, statistics & data
-                      sciences.
-                    </span>
-                  </div>
-                  <div className="carousel-item testi-item">
-                    <h3 className="text-center mb-5 teamMates fontName">
-                      Yosef
-                    </h3>
-                    <span className="paragraph fw-bolder ">
-                      I am the CTO of Shibex. Currently finishing my studies on
-                      a double major in mathematics and computer science. I
-                      specialize in Blockchain development
+                      COO ORGANISED AF
                     </span>
                   </div>
                   <div className="carousel-item testi-item">
@@ -178,10 +164,15 @@ const Testimonials = () => {
                       Ubab
                     </h3>
                     <span className="paragraph fw-bolder ">
-                      Hi guys ! I am the CDO of Shibex, focusing on design. I
-                      worked on multiple design projects including big brands
-                      like Balmain, I am in charge of all design at SHIBEX tell
-                      me what you think!
+                      DESIGNER GRAPHICS ADDICT
+                    </span>
+                  </div>
+                  <div className="carousel-item testi-item">
+                    <h3 className="text-center mb-5 teamMates fontName">
+                      Salome
+                    </h3>
+                    <span className="paragraph fw-bolder ">
+                      CM COMMUNITY IS EVERYTHING
                     </span>
                   </div>
                 </div>

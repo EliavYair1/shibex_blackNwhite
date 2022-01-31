@@ -3,7 +3,31 @@
   padding-left: 0 !important;
 }
 .layout-caption {
-  margin-top: 10em;
+  font-size: 1.2em;
   font-family: var(--gameFont);
-  text-shadow: 0 0 15px #fcd032, 0 0 10px #fcd032;
+  text-shadow: 0 0 15px var(--goldColor), 0 0 10px var(--goldColor);
+  text-align: center;
+  margin: 70px;
+}
+
+.button-layout {
+  position: relative;
+  bottom: 110px;
+  margin: -90px;
+  z-index: 10;
+  text-align: center;
+}
+.btn-slider {
+  border-radius: 45% !important;
+  width: 15em !important  ;
+  padding: 1.2em !important;
+}
+.btn-slider:focus {
+  background-color: var(--whiteColor);
+}
+
+.innerBtns {
+  color: var(--goldColor) !important;
+  width: 20em !important;
+  font-weight: bold !important;
 }

@@ -4,9 +4,10 @@
   margin-top: 100px;
   min-height: 80vh;
 }
+
 .testi-img .img-box {
   max-width: 360px;
-  margin: auto;
+  margin: 200px auto;
   text-align: center;
   position: relative;
 }
@@ -37,7 +38,7 @@
   font-size: 5em;
   text-align: center;
   position: relative;
-  bottom: 130px;
+  top: 50px;
   font-family: var(--gameFont);
   font-weight: bolder;
 }
@@ -137,7 +138,7 @@
   }
 }
 
-/** For mobile devices **/
+/* For mobile devices */
 @media (max-width: 767px) {
   .custom-shape-divider-top-mobile svg {
     position: relative;

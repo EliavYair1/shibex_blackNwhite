@@ -39,7 +39,9 @@ const Navbar = () => {
                 className="nav-link navLinkColor active fw-bold fs-4"
                 aria-current="page"
                 href="https://shibex-soldiers.web.app/"
-                whileHover={{ color: 'var(--redColor)' }}
+                whileHover={{
+                  color: 'var(--goldColor)',
+                }}
                 whileTap={{ scale: 0.5, originX: 0 }}
                 target="_blank"
                 rel="noreferrer"
@@ -51,7 +53,9 @@ const Navbar = () => {
               <motion.a
                 className="nav-link navLinkColor fw-bold fs-4"
                 href="https://swap.mimo.exchange/#/swap?inputCurrency=0x838403e073a79719a0927a16642ca7dcdc642bd5"
-                whileHover={{ color: 'var(--redColor)' }}
+                whileHover={{
+                  color: 'var(--goldColor)',
+                }}
                 whileTap={{ scale: 0.5, originX: 0 }}
                 target="_blank"
                 rel="noreferrer"
@@ -61,7 +65,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <motion.a
-                whileHover={{ color: 'var(--redColor)' }}
+                whileHover={{
+                  color: 'var(--goldColor)',
+                }}
                 whileTap={{ scale: 0.5, originX: 0 }}
                 className="nav-link  navLinkColor fw-bold fs-4"
                 target="_blank"

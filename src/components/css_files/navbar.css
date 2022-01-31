@@ -9,5 +9,4 @@
   color: var(--blackColor);
   font-family: var(--gameFont);
   display: flex;
-  /* justify-content: space-around; */
 }

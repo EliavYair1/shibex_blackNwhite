@@ -105,7 +105,10 @@ const Timer = () => {
                     <div className="col-12 mb-4 add-countdown-time ">
                       <div data-active className="row text-center">
                         <div className="col">
-                          <h2 className=" text-warning mb-2 timerDigits ">
+                          <h2
+                            className="  mb-2 timerDigits"
+                            style={{ color: 'var(--yellowColor)' }}
+                          >
                             00
                           </h2>
                           <span className=" mb-0 timerClock" data-days-label>
@@ -113,19 +116,34 @@ const Timer = () => {
                           </span>
                         </div>
                         <div className="col">
-                          <h2 className=" text-warning mb-2 timerDigits">00</h2>
+                          <h2
+                            className="  mb-2 timerDigits"
+                            style={{ color: 'var(--yellowColor)' }}
+                          >
+                            00
+                          </h2>
                           <span className=" mb-0 timerClock" data-hours-label>
                             Hour
                           </span>
                         </div>
                         <div className="col">
-                          <h2 className=" text-warning mb-2 timerDigits">00</h2>
+                          <h2
+                            className="  mb-2 timerDigits"
+                            style={{ color: 'var(--yellowColor)' }}
+                          >
+                            00
+                          </h2>
                           <span className=" mb-0 timerClock" data-minutes-label>
                             Minutes
                           </span>
                         </div>
                         <div className="col">
-                          <h2 className=" text-warning mb-2 timerDigits">00</h2>
+                          <h2
+                            className="  mb-2 timerDigits"
+                            style={{ color: 'var(--yellowColor)' }}
+                          >
+                            00
+                          </h2>
                           <span className=" mb-0 timerClock" data-seconds-label>
                             Seconds
                           </span>
@@ -140,7 +158,7 @@ const Timer = () => {
                   </div>
                   <a
                     href="https://swap.mimo.exchange/#/swap?inputCurrency=0x838403e073a79719a0927a16642ca7dcdc642bd5"
-                    className="btn btn-warning rounded-pill purchaseBtn fw-bold mt-4 "
+                    className="btn  rounded-pill purchaseBtn fw-bold mt-4 "
                     target="_blank"
                     rel="noreferrer"
                   >
