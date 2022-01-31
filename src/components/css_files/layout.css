@@ -1,0 +1,9 @@
+.layoutContainer {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.layout-caption {
+  margin-top: 10em;
+  font-family: var(--gameFont);
+  text-shadow: 0 0 15px #fcd032, 0 0 10px #fcd032;
+}
