@@ -1,4 +1,4 @@
-import desktop1 from '../images/shibexLogo/shibexLogo/desktop/desktop3.png';
+/* import desktop1 from '../images/shibexLogo/shibexLogo/desktop/desktop3.png';
 import desktop2 from '../images/shibexLogo/shibexLogo/desktop/desktop2.png';
 import desktop3 from '../images/shibexLogo/shibexLogo/desktop/desktop.png';
 import realMobile3 from '../images/shibexLogo/shibexLogo/mobile/realmobile3.png';
@@ -163,3 +163,4 @@ const Slider = () => {
 };
 
 export default Slider;
+ */

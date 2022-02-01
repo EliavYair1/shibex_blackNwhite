@@ -1,10 +1,10 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-import firstImage from '../images/avatar_new/avatar1.jpeg';
-import thirdImage from '../images/avatar_new/avatar2.jpeg';
-import secondImage from '../images/avatar_new/avatar3.jpeg';
-import forthImage from '../images/avatar_new/avatar4.jpeg';
+import firstImage from '../images/avatar_update/avatar1.png';
+import thirdImage from '../images/avatar_update/avatar2.png';
+import secondImage from '../images/avatar_update/avatar3.png';
+import forthImage from '../images/avatar_update/avatar4.png';
 import './css_files/testimonial.css';
 const Testimonials = () => {
   const { ref, inView } = useInView({

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import imgLayout from '../images/shibexMain3.png';
+import imgLayout from '../images/shibexDesktop.png';
 import './css_files/layout.css';
 
 const Layout = () => {
